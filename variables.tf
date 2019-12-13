@@ -28,7 +28,7 @@ variable "cache_cluster_enabled" {
 variable "cache_cluster_size" {
   type        = "string"
   description = "The size of the cache cluster for the stage, if enabled. Allowed values include 0.5, 1.6, 6.1, 13.5, 28.4, 58.2, 118 and 237."
-  default     = ""
+  default     = "0.5"
 }
 
 variable "client_certificate_id" {
