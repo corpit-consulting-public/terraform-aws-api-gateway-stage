@@ -22,7 +22,7 @@ variable "access_log_settings" {
 variable "cache_cluster_enabled" {
   type        = "string"
   description = "Specifies whether a cache cluster is enabled for the stage"
-  default     = ""
+  default     = "false"
 }
 
 variable "cache_cluster_size" {
